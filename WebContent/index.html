@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Triangular Arbitrage</title>
+<script type="text/javascript">
+	function putVal1() {
+		curr6.value = curr1.value;
+	}
+	function putVal2() {
+		curr3.value = curr2.value;
+	}
+	function putVal3() {
+		curr5.value = curr4.value;
+	}
+</script>
+</head>
+<body>
+	<h3>
+		<center>Triangular Arbitrage</center>
+	</h3>
+	<form action="ForexArbitrage" method="POST">
+		<input type="text" name="curr1" id="curr1" placeholder="Currency1"
+			onblur="putVal1()" /> <input type="text" name="curr2" id="curr2"
+			placeholder="Currency2" onblur="putVal2()" /> <br /> <input
+			type="text" name="curr3" placeholder="Currency2" id="curr3" /> <input
+			type="text" name="curr4" id="curr4" placeholder="Currency3"
+			onblur="putVal3()" /> <br /> <input type="text" name="curr5"
+			id="curr5" placeholder="Currency3" /> <input type="text" name="curr6"
+			id="curr6" placeholder="Currency1" /> <br /> <input type="number"
+			name="amount" placeholder="Investment Amount" /> <br /> <input
+			type="submit" value="submit" />
+	</form>
+</body>
+</html>

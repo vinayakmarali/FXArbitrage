@@ -1,0 +1,13 @@
+How to install and run the solution:
+1. Import the FXArbitrage Project to Eclipse
+2. Run the index.html file
+3. Input the currencies(USD/GBP/EUR) in the input boxes for correct triangulation computation such that:
+Currency1 should be equal to currency6
+Currency2 should be equal to currency3
+Currency5 should be equal to currency4
+For example:
+USD	EUR
+EUR	GBP
+GBP	USD
+4. Enter an amount in the "Investment Amount" textbox for currency1 unit, e.g. 1000000
+4. Submit to check whether triangulation arbitrage is leading to profit or loss. 
